@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ПроверкаРаботыVanessa-behavior",
+    "children" : [ {
+      "name" : "Генерация epf",
+      "uid" : "df59919645520e1a",
+      "parentUid" : "10af21ff54d9063897af3a5e10d6e8f0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 63643136187127,
+        "stop" : 63643136187560,
+        "duration" : 433
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "10af21ff54d9063897af3a5e10d6e8f0"
+  } ]
+}

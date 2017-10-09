@@ -1,0 +1,156 @@
+{
+  "uid" : "df59919645520e1a",
+  "name" : "Генерация epf",
+  "fullName" : "ПроверкаРаботыVanessa-behavior.Генерация epf",
+  "historyId" : "ef413715014e4031f7a52629d1a2f28",
+  "time" : {
+    "start" : 63643136187127,
+    "stop" : 63643136187560,
+    "duration" : 433
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "Не реализовано.",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusDetails" : {
+      "message" : "Не реализовано.",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Допустим у меня есть feature файл",
+      "time" : {
+        "start" : 63643136187556,
+        "stop" : 63643136187559,
+        "duration" : 3
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "message" : "Не реализовано.",
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "и у меня есть инструмент vanessa-behavior",
+      "time" : {
+        "start" : 63643136187560,
+        "stop" : 63643136187560,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "message" : "Не реализовано.",
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Когда я в vanessa-behavior запускаю генерацию epf",
+      "time" : {
+        "start" : 63643136187560,
+        "stop" : 63643136187560,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "message" : "Не реализовано.",
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Тогда рядом с feature файлом должен появится каталог с внешней обработкой 1С",
+      "time" : {
+        "start" : 63643136187560,
+        "stop" : 63643136187560,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "message" : "Не реализовано.",
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ПроверкаРаботыVanessa-behavior"
+  }, {
+    "name" : "framework",
+    "value" : "vanessa-behavior"
+  }, {
+    "name" : "language",
+    "value" : "1С"
+  }, {
+    "name" : "story",
+    "value" : "Генерация epf"
+  }, {
+    "name" : "suite",
+    "value" : "ПроверкаРаботыVanessa-behavior"
+  }, {
+    "name" : "testClass",
+    "value" : "ПроверкаРаботыVanessa-behavior"
+  }, {
+    "name" : "testMethod",
+    "value" : "Генерация epf"
+  }, {
+    "name" : "package",
+    "value" : "ПроверкаРаботыVanessa-behavior"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df59919645520e1a.json",
+  "statusDetailsSafe" : {
+    "message" : "Не реализовано.",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}
