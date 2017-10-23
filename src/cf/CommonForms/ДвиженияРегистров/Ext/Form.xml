@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Table name="ПартииТоваров" id="1">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ПартииТоваров</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ПартииТоваровКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ПартииТоваровКоманднаяПанель" id="3"/>
+			<ExtendedTooltip name="ПартииТоваровРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ПартииТоваровСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>ПартииТоваров</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПартииТоваровСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ПартииТоваровСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПартииТоваровСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>ПартииТоваров</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПартииТоваровСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ПартииТоваровСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПартииТоваровУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>ПартииТоваров</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПартииТоваровУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ПартииТоваровУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ПартииТоваровНомерСтроки" id="14">
+					<DataPath>ПартииТоваров.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПартииТоваровНомерСтрокиКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ПартииТоваровНомерСтрокиРасширеннаяПодсказка" id="16"/>
+				</LabelField>
+				<InputField name="ПартииТоваровПериод" id="17">
+					<DataPath>ПартииТоваров.Period</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПартииТоваровПериодКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ПартииТоваровПериодРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="ПартииТоваровВидДвижения" id="20">
+					<DataPath>ПартииТоваров.RecordType</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПартииТоваровВидДвиженияКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ПартииТоваровВидДвиженияРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="ПартииТоваровНоменклатура" id="23">
+					<DataPath>ПартииТоваров.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПартииТоваровНоменклатураКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ПартииТоваровНоменклатураРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="ПартииТоваровПартия" id="26">
+					<DataPath>ПартииТоваров.Партия</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПартииТоваровПартияКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ПартииТоваровПартияРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ПартииТоваровКоличество" id="29">
+					<DataPath>ПартииТоваров.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПартииТоваровКоличествоКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ПартииТоваровКоличествоРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ПартииТоваровСумма" id="32">
+					<DataPath>ПартииТоваров.Сумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПартииТоваровСуммаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ПартииТоваровСуммаРасширеннаяПодсказка" id="34"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ПартииТоваров" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Партии товаров</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:AccumulationRegisterRecordSet.ПартииТоваров</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+</Form>
